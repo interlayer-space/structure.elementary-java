@@ -1,6 +1,6 @@
 package space.interlayer.structure.elementary.alpha.translation;
 
-import space.interlayer.structure.elementary.alpha.core.Node;
+import space.interlayer.structure.elementary.alpha.core.TopTypeNode;
 
 /**
  * Basic interoperability unit that converts node representations
@@ -14,7 +14,8 @@ import space.interlayer.structure.elementary.alpha.core.Node;
  * @param <A> Accepted type that can be encoded into {@link I}.
  * @param <P> Produced type that is created from {@link I}.
  */
-public interface Translator<I, A extends Node<A>, P extends A> {
+@SuppressWarnings("unused")
+public interface Translator<I, A extends TopTypeNode<A>, P extends A> {
     /**
      * Converts structure.elementary compatible structure into intrinsic
      * representation.

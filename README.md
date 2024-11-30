@@ -5,6 +5,10 @@ follow the link to understand its purpose.
 
 This repository is in `alpha` maturity stage.
 
+## Why
+
+//TODO
+
 ## Contents
 
 At the moment of writing `core`, `manipulation` and `translation` 
@@ -15,9 +19,10 @@ components were implemented.
 During the alpha stage, projects coordinates are:
 
 ```
-space.interlayer.structure.elementary.alpha:core:<version>
-space.interlayer.structure.elementary.alpha:translation:<version>
-space.interlayer.structure.elementary.alpha:manipulation:<version>
+space.interlayer.structure.elementary.alpha.api:core:<version>
+space.interlayer.structure.elementary.alpha.api:convention:<version>
+space.interlayer.structure.elementary.alpha.api:translation:<version>
+space.interlayer.structure.elementary.alpha.api:manipulation:<version>
 ```
 
 ## Implementations

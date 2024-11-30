@@ -8,15 +8,29 @@
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <version>0.1.0</version>
+    <name>interlayer:structure.elementary:$</name>
 
     <modules>
-        <module>src/translation</module>
         <module>src/core</module>
+        <module>src/convention</module>
         <module>src/manipulation</module>
+        <module>src/translation</module>
     </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+
+        <version.lombok.lombok>1.18.34</version.lombok.lombok>
+        <version.junit.jupiter>5.11.0</version.junit.jupiter>
+        <version.hamcrest.all>1.3</version.hamcrest.all>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${version.lombok.lombok}</version>
+        </dependency>
+    </dependencies>
 </project>
